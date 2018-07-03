@@ -11,6 +11,7 @@ namespace TestGitonVS2010.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            // feature 1.1 changes 
 
             return View();
         }
